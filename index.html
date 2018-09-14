@@ -10,7 +10,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
     <body>
         <header>
@@ -51,8 +52,8 @@
                         <div class="centered">
                             <h1>Lorem, ipsum.<br><span>Lorem, ipsum.</span></h1>
                             <div class="btns">
-                                <a href="#">see features</a>
-                                <a href="#">purchase now</a>
+                                <a class="bold" href="#">see features</a>
+                                <a class="bold" href="#">purchase now</a>
                             </div>
                         </div>
                     </div>
@@ -107,12 +108,12 @@
             <section class="line-3">
                 <div class="container pb-5 text-center">
                     <h2 class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-                    <a class="btn1" href="#">purchase now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <a class="bold btn1" href="#">purchase now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                 </div>
             </section>
             <section class="sup">
                 <div class="container">
-                    <h2>Superb features</h2>
+                    <h2 class="text-center">Superb features</h2>
                     <div class="row">
                         <div class="col-md-6 center">
                             <img src="./assets/images/star.png" alt="Star">
@@ -145,43 +146,69 @@
                     </div>
                 </div>
             </section>
-            <section class="sec-01">
+            <section class="sec-06">
                 <div class="text-center">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non qui obcaecati, saepe velit itaque facere possimu</h3>
+                    <h3 class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non qui obcaecati, saepe velit itaque facere possimu</h3>
                     <h4>earum ad maxime</h4>
                 </div>
             </section>
-            <section class="sec-02">
+            <section class="sec-07">
                 <h2 class="text-center">Latest blog posts</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="./assets/images/22550-290x220.jpg" alt="22">
-                            <div class="txt-arrange">
-                                <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, neque odio eveniet alias officia illum.</p>
-                                <a href="#">Learn more</a>
+                        <div class="col-lg-4">
+                            <div class="col-lg-4-div">
+                                <img src="./assets/images/22550-290x220.jpg" alt="22">
+                                <div class="txt-arrange">
+                                    <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
+                                    <p class="light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, neque odio eveniet alias officia illum.</p>
+                                    <a href="#">Learn more</a>
+                                    <i class="fas fa-comments"></i>
+                                    <p class="light">450</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="./assets/images/22550-290x220.jpg" alt="22">
-                            <div class="txt-arrange">
-                                <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nulla quam possimus fugit, ipsam eos.</p>
-                                <a href="#">Learn more</a>
+                        <div class="col-lg-4">
+                            <div class="col-lg-4-div">
+                                <img src="./assets/images/22550-290x220.jpg" alt="22">
+                                <div class="txt-arrange">
+                                    <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
+                                    <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nulla quam possimus fugit, ipsam eos.</p>
+                                    <a href="#">Learn more</a>
+                                    <i class="fas fa-comments"></i>
+                                    <p class="light">450</p>                               
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="./assets/images/22550-290x220.jpg" alt="22">
-                            <div class="txt-arrange">
-                                <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ex sunt alias reprehenderit dolor facere?</p>
-                                <a href="#">Learn more</a>
+                        <div class="col-lg-4">
+                            <div class="col-lg-4-div">
+                                <img src="./assets/images/22550-290x220.jpg" alt="22">
+                                <div class="txt-arrange">
+                                    <h3 class="pt-3 pb-3"><a href="#">Runway to Lorem ipsum dolor sit.</a></h3>
+                                    <p class="light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ex sunt alias reprehenderit dolor facere?</p>
+                                    <a href="#">Learn more <i class="fas fa-comments comments-icon"></i></a>
+                                    <p class="light">450</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- <section class="text-center sec-08">
+                <h3 class="light">Company experience</h3>
+                <i class="fas fa-cogs"></i>
+                <svg height="210px" width="210px">
+                    <circle cx="50" cy="50" r="40" stroke="#fff" stroke-width="5px" fill="#02baab" />
+                  </svg>
+                <i class="fas fa-phone"></i>
+                <svg height="210px" width="210px">
+                    <circle cx="50" cy="50" r="40" stroke="#fff" stroke-width="5px" fill="#02baab" />
+                  </svg>
+                <i class="fas fa-rocket"></i> 
+                <svg height="210px" width="210px">
+                    <circle cx="50" cy="50" r="40" stroke="#fff" stroke-width="5px" fill="#02baab" />
+                  </svg> 
+            </section> -->
         </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./assets/js/main.js" type="text/javascript"></script>
