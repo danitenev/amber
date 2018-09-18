@@ -270,9 +270,6 @@ a.icon {
     font-size: 11px;
     color: #02baab;
 }
-/* .arr1 {
-    margin: 0 30px 0 0;
-} */
 
 .text1 h2 {
     font-size: 36px;
@@ -338,6 +335,7 @@ a.icon {
     margin: 0 auto;
 }
 
+/* sec-06 */
 .sec-06 {
     background: url("../images/snowflakes.jpg") no-repeat center center;
     background-size: cover;
@@ -361,6 +359,7 @@ a.icon {
 
 }
 
+/* sec-07 */
 .sec-07 h2 {
     color: #3b4954;
     font-size: 36px;
@@ -409,7 +408,8 @@ a.icon {
     display: inline-block;
 }
 
-/* .sec-08 {
+/* sec-08 */
+.sec-08 {
     background: #02baab;
     padding: 100px 0 105px 0;
 }
@@ -426,14 +426,90 @@ a.icon {
     width: 50px;
     background: #fff;
     margin: 30px auto 50px auto;
-} */
+}
+
+.radius_i {
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    color: #fff;
+    font-size: 70px;
+    transform: translateY(-50%);
+}
+
+.radius_i2 {
+    position: absolute;
+    top: 50%;
+    right: -15%;
+    color: #fff;
+    font-size: 70px;
+    transform: translateY(-50%);
+}
+
+.circle .col-lg-4 {
+    padding-top: 50px;
+}
+
+.radius_pic {
+    position: relative;
+}
+
+.radius_pic svg {
+    fill: transparent;
+    transform: rotate(-90deg);
+}
+
+.radius_dash1 .radius_circle2 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 500;
+    animation: animated 5s ease infinite alternate;
+}
+
+.radius_dash2 .radius_circle4 {
+    stroke-dasharray:1000;
+    stroke-dashoffset: 615;
+    animation: animated1 5s ease infinite alternate;
+}
+
+.radius_dash3 .radius_circle6 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 435;
+    animation: animated2 5s ease infinite alternate;
+}
+
+.radius_pic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.radius_text {
+    max-width: 215px;
+    margin: 0 auto;
+
+}
+
+.radius_text p {
+    font-size: 37px;
+    color: #ffff;
+    line-height: 24px;
+}
+
+.circle span {
+    font-size: 18px;
+}
+
+.circle {
+    text-align: center;
+}
+
 
 /*media queries*/
 @media screen and (max-width: 1920px) {
     .icon {
         display: none;
     }
-
 }
 
 @media screen and (max-width:1600px) {
@@ -602,4 +678,19 @@ a.icon {
     .search input {
         width: 120px;
     }
+}
+
+@keyframes animated{
+    0%{stroke-dashoffset: 1000}
+    100%{stroke-dashoffset: 500}
+}
+
+@keyframes animated1{
+    0%{stroke-dashoffset: 1000}
+    100%{stroke-dashoffset: 615}
+}
+
+@keyframes animated2{
+    0%{stroke-dashoffset: 1000}
+    100%{stroke-dashoffset: 435}
 }
