@@ -10,6 +10,14 @@ body {
     font-weight: 700;
 }
 
+.main-color {
+    color: #02baab;
+}
+
+.main-color-bckgr {
+    background: #02baab;
+}
+
 /* header */
 .line {
     background: black;
@@ -118,9 +126,7 @@ a:hover {
 }
   
 /* section 1 */
-.centered a:hover, .btn0:hover, .line-3 {
-    background: #02baab;
-}
+
 
 .navb {
     padding: 0px;
@@ -141,7 +147,6 @@ a.icon {
 }
 
 .centered {
-    color: #02baab;
     background: url("../images/vnl.jpg") no-repeat center;
     background-size: cover;
     padding: 18.22vw 0 14.06vw 0;
@@ -152,17 +157,19 @@ a.icon {
 }
 
 .centered a {
-    color: #02baab;
     width: 135px;
     font-size: 12px;
     text-transform: uppercase;
     border: 3px solid #02baab;
     line-height: 40px;
     display: inline-block;
+    color: #fff;
 }
 
 .centered a:hover {
     border: 3px solid #02baab;
+    background: transparent;
+    color: #02baab;
 }
 
 .centered a:nth-of-type(1) {
@@ -190,7 +197,6 @@ a.icon {
 .btn0 {
     text-transform: uppercase;
     border: 3px solid #02baab;
-    color: #02baab;
     background: #ffff;
     width: 135px;
     font-size: 10px;
@@ -200,6 +206,7 @@ a.icon {
 
 .btn0:hover {
     border: 3px solid #02baab;
+    background: #02baab;    
 }
 
 /* section 3 */
@@ -269,7 +276,6 @@ a.icon {
 
 .abs span {
     font-size: 11px;
-    color: #02baab;
 }
 
 .text1 h2 {
@@ -354,7 +360,6 @@ a.icon {
 }
 
 .sec-06 i {
-    color: #02baab;
     font-size: 36px;
 }
 
@@ -364,7 +369,6 @@ a.icon {
 }
 
 .sec-06 h4 {
-    color: #02baab;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -409,7 +413,6 @@ a.icon {
 }
 
 .txt-arrange i {
-    color: #02baab;
     font-size: 14px;
     margin-left: 170px;
 }
@@ -420,7 +423,6 @@ a.icon {
 
 /* sec-08 */
 .sec-08 {
-    background: #02baab;
     padding: 100px 0 105px 0;
 }
 
@@ -472,19 +474,19 @@ a.icon {
 .radius_dash1 .radius_circle2 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 500;
-    animation: animated 5s ease infinite alternate;
+    animation: animated 4s ease infinite alternate;
 }
 
 .radius_dash2 .radius_circle4 {
     stroke-dasharray:1000;
     stroke-dashoffset: 615;
-    animation: animated1 5s ease infinite alternate;
+    animation: animated1 4s ease infinite alternate;
 }
 
 .radius_dash3 .radius_circle6 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 435;
-    animation: animated2 5s ease infinite alternate;
+    animation: animated2 4s ease infinite alternate;
 }
 
 .radius_pic img {
@@ -552,7 +554,6 @@ a.icon {
 }
 
 .our_a a {
-    color: #02baab;
     text-transform: uppercase;
     font-size: 9px;
     display: block;
@@ -564,14 +565,13 @@ a.icon {
     position: relative;
     display: block;
     transition: 0.3s;
-    color: #fff;
-    background: #02baab;
+    background: #fff;
 }
 
 .our_a a:hover {
-    background: #fff;
+    background: #02baab;
     text-decoration: none;
-    color: #02baab;
+    color: #fff;
 }
 
 .our_info:hover .our_info2 {
@@ -629,8 +629,118 @@ a.icon {
     font-size: 11px;
 }
 
+/* footer */
+footer {
+    background: #1f2a32;
+}
+
+footer h3 {
+    padding: 74px 0 50px 0; 
+    color: #fff;
+    border-top: 15px solid #7827a9;
+    margin: 0 -15px;
+}
+
+.footer-h3-2 {
+    border-top-color: #0c8fcc;
+}
+
+.footer-h3-3 {
+    border-top-color: #de1c5c;
+}
+
+.footer-h3-4 {
+    border-top-color: #ffae00;
+}   
+
+footer p {
+    font-size: 9px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+footer span {
+    color: #4f5b65;
+}
+
+footer i {
+    font-size: 13px;
+}
+
+footer i, footer p {
+    display: inline-block;
+}
+
+.get-in-touch {
+    max-width: 200px;
+}
+
+footer .row .google-map {
+    margin-bottom: 100px;
+}
+
+.footer-bottom-p {
+    margin-bottom: 60px;
+    max-width: 236px;
+}
+
+.latest-tweets {
+    max-width: 208px;
+}
+
+.follow-us i {
+    font-size: 50px;
+    color: #3b5998;
+}
+
+.follow-us .tweet {
+    color: #00a0d1;
+}
+
+.follow-us .youtube {
+    color: #c4302b;
+}
+
+.follow-us .insta {
+    color: #825c48;
+}
+
+.follow-us .pin {
+    color: #a30834;
+}
+
+.follow-us p {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+/* add a different margin-bottom on some paragraphs */
+.footer-col4-div-p {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.popular-posts > a {
+    border: 2px solid #02baab;
+    padding: 12px 13px 16px 16px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+.footer-col4-div {
+    margin-bottom: 40px;
+}
 
 
+
+footer a {
+    color: #02baab;
+}
+
+footer a:hover {
+    color: #02baab;
+}
 
 /*media queries*/  
 @media screen and (max-width:1200px) {
@@ -758,7 +868,7 @@ a.icon {
     }
 
     .login {
-	padding-right: 5px;
+	    padding-right: 5px;
     }
 
     .search input {
@@ -771,6 +881,7 @@ a.icon {
 
     .btns a {
         width: 120px;
+        background: #02baab;
     }
 
     .line-3 {
