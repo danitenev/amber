@@ -184,7 +184,7 @@ a.icon {
 
 /* section 2 */
 .text1 {
-    background: #ffffff;
+    background: #fff;
     margin: 100px 0 100px 0;
 }   
 
@@ -358,7 +358,6 @@ a.icon {
 .sec-06 > div {
     max-width: 34.895vw;
     margin: 0 auto;
-
 }
 
 .sec-06 i {
@@ -476,19 +475,19 @@ a.icon {
 .radius_dash1 .radius_circle2 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 500;
-    animation: animated 4s ease infinite alternate;
+    animation: animated 2s ease infinite alternate;
 }
 
 .radius_dash2 .radius_circle4 {
     stroke-dasharray:1000;
     stroke-dashoffset: 615;
-    animation: animated1 4s ease infinite alternate;
+    animation: animated1 2s ease infinite alternate;
 }
 
 .radius_dash3 .radius_circle6 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 435;
-    animation: animated2 4s ease infinite alternate;
+    animation: animated2 2s ease infinite alternate;
 }
 
 .radius_pic img {
@@ -912,7 +911,7 @@ footer a:hover {
     }
 
     .text1 {
-	margin-bottom: 30px;
+	    margin-bottom: 30px;
     }
 
     .bit-of-text {
