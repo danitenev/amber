@@ -18,6 +18,10 @@ body {
     background: #02baab;
 }
 
+.centered a, .btn0, .btn1 {
+    transition: 1s;
+}
+
 /* header */
 .line {
     background: black;
@@ -126,8 +130,6 @@ a:hover {
 }
   
 /* section 1 */
-
-
 .navb {
     padding: 0px;
     display: inline-block;
@@ -730,9 +732,12 @@ footer .row .google-map {
 
 .footer-col4-div {
     margin-bottom: 40px;
+    max-width: 200px;
 }
 
-
+.footer-col4-div a {
+    font-size: 9px;
+}
 
 footer a {
     color: #02baab;
@@ -747,6 +752,10 @@ footer a:hover {
     /* large lg */
     .island {
     max-width: 300px;
+    }
+
+    .popular-posts > a {
+        left: 25px;
     }
 }
 
@@ -838,6 +847,14 @@ footer a:hover {
     .radius_i, .radius_i2 {
         display: none;
     }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    .popular-posts > a {
+        position: static;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -858,6 +875,11 @@ footer a:hover {
     .our_info {
         max-width: 300px;
         margin: 20px auto 30px auto;
+    }
+}
+@media screen and (max-width: 575px) {
+    footer h3 {
+        margin-left: 5px;
     }
 }
 
